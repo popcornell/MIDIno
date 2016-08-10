@@ -1,7 +1,8 @@
 # MIDIno
 MIDI (through standard 5-DIN MIDI cables) to BLE-MIDI bridging with Arduino-compatible boards project.    
 
-This project was inspired by **[Matt Sieren (sieren) blidino Arduino USB-MIDI to BLE-MIDI project] (https://github.com/sieren/blidino)**.
+This project was inspired by **[Matt Sieren (sieren) blidino Arduino USB-MIDI to BLE-MIDI project] (https://github.com/sieren/blidino)**. 
+I would like to thank him because his work made this possible as all the BLE-MIDI to MIDI parsing part is taken from his blidino project ( see [BLEParser.h](https://github.com/sieren/blidino/blob/master/nRF51822-BLEMIDI/BLEParser.h) ).
 
 The purpose of this project is to allow MIDI devices that doesn't support USB-MIDI (vintage synths for example) to communicate wires-free through the Midi Manufacturers Association MIDI over Bluetooth Low Energy (BLE-MIDI) protocol.   
 
