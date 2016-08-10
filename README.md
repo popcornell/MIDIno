@@ -15,7 +15,16 @@ This repo contains the code for the Arduino IDE but as this same board supports 
 
 Also currently this Arduino IDE port here _lacks of uart software buffering_ it should be ported in the future from the original program. 
 
-**As such i recommend, for now , to use instead the mbed OS version available here [MIDI-to-BLE-MIDI-bridge (mbed OS)](https://developer.mbed.org/users/popcornell/code/MIDI-to-BLE-MIDI-bridge/).**
+
+
+
+
+###As such i recommend, for now , to use instead the mbed OS version available here [MIDI-to-BLE-MIDI-bridge (mbed OS)](https://developer.mbed.org/users/popcornell/code/MIDI-to-BLE-MIDI-bridge/).
+
+
+
+
+
 
 #BLE-MIDI 
 
