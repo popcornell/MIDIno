@@ -11,11 +11,13 @@ The purpose of this project is to allow MIDI devices that doesn't support USB-MI
 
 Currently the only board supported is the **redbearlab nRF51822** Arduino-compatible Board. 
 
-This repo contains the code for the Arduino IDE but as this same board supports [mbed OS](https://www.mbed.com/en/development/mbed-os/) ( see [redbearslab nRF51822 description](http://redbearlab.com/redbearlab-nrf51822/) ) the program was originally developed using that platform.    
+This repo contains the code for the Arduino IDE but as this same board supports [mbed OS](https://www.mbed.com/en/development/mbed-os/) ( see [redbearslab nRF51822 description](http://redbearlab.com/redbearlab-nrf51822/) ) the program was originally developed using that platform ([mbed Compiler](https://developer.mbed.org/handbook/mbed-Compiler)) .    
 
-Also currently this Arduino IDE port here _lacks of uart software buffering_. 
+Also currently this Arduino IDE port here _lacks of uart software buffering_ it should be ported in the future from the original program. 
 
-**As such i strongly recommend, for now , to use instead the mbed OS version available here [MIDI-to-BLE-MIDI-bridge (mbed OS)](https://developer.mbed.org/users/popcornell/code/MIDI-to-BLE-MIDI-bridge/). This was more thoroughly tested and should be considered more reliable.** 
+**As such i strongly recommend, for now , to use instead the mbed OS version available here [MIDI-to-BLE-MIDI-bridge (mbed OS)](https://developer.mbed.org/users/popcornell/code/MIDI-to-BLE-MIDI-bridge/). This program was more thoroughly tested and should be considered more reliable.** 
+
+
 
 
 
