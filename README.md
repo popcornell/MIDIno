@@ -39,7 +39,10 @@ Specification](https://developer.apple.com/bluetooth/Apple-Bluetooth-Low-Energy-
 
 #Videos 
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=cK_RbGiWlQg)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=cK_RbGiWlQg
+" target="_blank"><img src="http://img.youtube.com/vi/cK_RbGiWlQg/0.jpg" 
+alt="Video" width="260" height="180" border="10" /></a>
+
 
 
 
