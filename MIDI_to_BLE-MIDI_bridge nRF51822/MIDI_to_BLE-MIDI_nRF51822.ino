@@ -130,7 +130,7 @@ void sendBLEMIDI(void)
  
  
 // MIDI::MIDI_to_BLEMIDI_Parser() parses incoming MIDI events from the UART (see MIDI_BLEMIDI_Parser.h) 
-    if(isConnected == true && MIDI::MIDI_to_BLEMIDI_Parser()==true) {
+    while(isConnected == true && MIDI::MIDI_to_BLEMIDI_Parser()==true) {
  
         // a valid MIDI message has been parsed from the UART buffer
  
