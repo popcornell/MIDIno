@@ -64,7 +64,7 @@
 ******************************************************************************************************************************/
  
 Ticker sendBLEMIDI_Ticker ; 
-Ticker sendData_Ticker ; 
+
  
 Timer t; // timer used for BLE-MIDI timestamps 
  
