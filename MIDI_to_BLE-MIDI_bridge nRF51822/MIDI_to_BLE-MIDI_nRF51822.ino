@@ -142,7 +142,7 @@ void sendBLEMIDI(void)
         uint8_t BLEmidi_out[SysExMaxSize] ;
         uint8_t SysEx_Array_lenght ;
  
-        uint16_t ticks = t.read_us() & 0x1fff; // read timer for timestamps 
+        uint16_t ticks = t.read_ms() & 0x1fff; // read timer for timestamps 
  
         if(MIDI::mMessage.sysexArray[0] == MIDI::SystemExclusive)   { // message is  SysEx
  
@@ -180,7 +180,7 @@ void sendBLEMIDI(void)
                     BLEmidi_out[position++] = 0x80 | (ticks >> 7) & 0x3f;
                 }
  
-                ticks = t.read_us() & 0x1fff;
+                ticks = t.read_ms() & 0x1fff;
             }
  
             if (position > 0) {
