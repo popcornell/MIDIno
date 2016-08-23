@@ -44,5 +44,17 @@ Specification](https://developer.apple.com/bluetooth/Apple-Bluetooth-Low-Energy-
 alt="Video" width="260" height="180" border="10" /></a>
 
 
+# Alternative Purpose: Enabling BLE-MIDI on Windows 
 
+This program can also be used to enable a **Windows/Linux machine to communicate with BLE-MIDI hardware**.
+There is no need for additional hardware only the board and a micro USB cable. 
+The PC must run a Serial to MIDI software such as **Hairless MIDI Serial**.
+Also a software which enables multiple virtual MIDI ports is required on Windows such as **loopMIDI**. 
+
+Note: as MIDI standard 31250 baud rate is not supported by USB ports ( but there are workarounds especially in Linux ) change **BAUD_RATE** in **config.h** to a more common value for USB.
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=hbhb36hEA3s
+" target="_blank"><img src="http://img.youtube.com/vi/hbhb36hEA3s/0.jpg" 
+alt="Video" width="260" height="180" border="10" /></a>
 
