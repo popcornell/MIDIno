@@ -21,6 +21,7 @@
  *
  */
  
+ #define BAUD_RATE 31250 // standard MIDI baud rate. If one want to use this program with USB using a Serial to MIDI middleware running on Windows/OSX change accordingly
  
 // i have used DFRobot MIDI Shield to connect MIDI cables to the nRF51822 board but there are other commercially available similar products, also it is possible to interface directly a MIDI cable via an optocoupler (several projects are already available online ) 
  
