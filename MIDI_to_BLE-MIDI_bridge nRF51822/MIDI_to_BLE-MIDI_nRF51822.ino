@@ -352,7 +352,7 @@ pinMode (TX_LED,OUTPUT); //
  
  
  
-    Serial.begin(31250) ; // set UART baud rate to 31250 (MIDI standard)
+    Serial.begin(BAUD_RATE) ; // set UART baud rate to 31250 (MIDI standard)
  
     ble.init();
     ble.onDisconnection(disconnectionCallback);
